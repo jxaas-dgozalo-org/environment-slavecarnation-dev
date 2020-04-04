@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:slavecarnation/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:slavecarnation/pipelineUser:token
+  username: cloudbees-ci-cd[bot]
+prow:
+  hmacToken: vault:slavecarnation/prow:hmacToken
+segmentWriteKey: vault:slavecarnation:segmentWriteKey
